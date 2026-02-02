@@ -8,8 +8,19 @@
     z-index: -1;
     position: absolute;
     top: 15%;
-    left: 15%;
+    left: 20%;
     height: 100%;
+    padding: 0!important;
+        display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.stripe {
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    margin-top: 10%;
 }
 
 .flex {
@@ -70,4 +81,8 @@ input:focus {
   border: 1px solid #ccc;
   border-radius: 4px;
   background: white;
+}
+
+.cvc_container {
+    margin-right: .5em;
 }
